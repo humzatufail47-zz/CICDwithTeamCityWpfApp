@@ -23,6 +23,7 @@ namespace WpfApp
         public MainWindow()
         {
             InitializeComponent();
+            var x = $"{AppDomain.CurrentDomain.BaseDirectory}SwaggerData.xml";
         }
     }
 }
