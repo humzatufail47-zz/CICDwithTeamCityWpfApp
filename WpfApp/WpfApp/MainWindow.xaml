@@ -8,5 +8,6 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="Aqua">
         <TextBlock Text="Welcome to Team city CI and CD Tools" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Foreground="BlueViolet"></TextBlock>
+        <TextBlock Text="First Deployment" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="BlueViolet" Margin="0,70,0,0" FontSize="30"></TextBlock>
     </Grid>
 </Window>
