@@ -51,6 +51,7 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>copy "$(ProjectDir)\bin\Debug\SwaggerData.xml" "$(SolutionDir)WpfApp\bin\Debug\SwaggerData.xml"</PostBuildEvent>
+    <PostBuildEvent>copy /y "$(ProjectDir)\bin\Debug\SwaggerData.xml" "$(SolutionDir)WpfApp\bin\Debug\SwaggerData.xml"
+copy /y "$(ProjectDir)bin\Debug\SwaggerData.xml" "$(SolutionDir)TestWebApp\bin\SwaggerData.xml"</PostBuildEvent>
   </PropertyGroup>
 </Project>
